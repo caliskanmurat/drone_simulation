@@ -20,9 +20,17 @@ Bu uygulanma kullanılarak belirli hedeflere Drone'lar tarafından ulaşılması
 
 
 ### 1-) Rastgele Nokta Oluşturma
-
+- `rastgele_nokta_olusturma.py` dosyası kullanılarak gerçekleştirilir,
+- "veriler" klasöründeki `data.xlsx` dosyasının `RandomTarget` ve `RandomDrone` sayfasındaki girdiler kullanılarak rastgele drone ve hedef oluşturulur,
+- Sonuçlar "sonuclar" klasörüne `random_data.xlsx` ismi ile kaydedilir. (Kayıt yeri ve dosya isminin değiştirilmesi için `rastgele_nokta_olusturma.py` dosyası içerisinden gerekli ayarlamalar yapılabilir.)
 
 ### 2-) Çalışma Alanında Rastgele Nokta Oluşturma
+- Rastgele Dosya Oluşturma işlemine benzerdir. Oluşacak hedef ve Drone'lara rastgele koordinatlar atamak yerine; "veriler" klasöründe, `sim_boundary.gpkg` dosyasında bulunan ve QGIS yazılımı kullanılarak Beytepe kampüsü sınırları içerisinde daha önce oluşturulan 100 adet hedef baz alınır,
+- 100 adet hedef rastgele dağıtılmış olup Drone'ların tek bir noktadan dağıldığı varsayılarak tek bir Drone noktası oluştutulmuştur ve oluşturulan tüm Drone'ların koordinatı bu noktadır,
+- İşlem `calisma_alaninda_rastgele_nokta_olusturma.py` dosyası kullanılarak gerçekleştirilir,
+- "veriler" klasöründeki `data.xlsx` dosyasının `RandomTarget` ve `RandomDrone` sayfasındaki girdiler kullanılarak oluşturulur,
+- `sim_boundary.gpkg` dosyasındaki "Drone" ve "Hedef" koordinatlarını gösteren noktalar değiştirilebilir,
+- Sonuçlar "sonuclar" klasörüne `random_data_beytepe.xlsx ismi ile kaydedilir. (Kayıt yeri ve dosya isminin değiştirilmesi için `calisma_alaninda_rastgele_nokta_olusturma.py` dosyası içerisinden gerekli ayarlamalar yapılabilir.)
 
 
 ### 3-) Drone Güzergahı Analizi
