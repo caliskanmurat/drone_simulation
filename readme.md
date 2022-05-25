@@ -7,9 +7,9 @@
     <td><strong>Hareketli Hedef + Final Durak (3)</strong></td>
    </tr>
   <tr>
-    <td><img width="300" src="./images/hareketli_hedef.gif"></td>
-    <td><img width="300" src="./images/sabit_hedef.gif"></td>    
-    <td><img width="300" src="./images/hareketli_final_durak.gif"></td>
+    <td><img width="300" src="./gorseller/hareketli_hedef.gif"></td>
+    <td><img width="300" src="./gorseller/sabit_hedef.gif"></td>    
+    <td><img width="300" src="./gorseller/hareketli_final_durak.gif"></td>
   </tr>
 </table>
 
@@ -32,7 +32,7 @@ Bu uygulanma kullanılarak belirli hedeflere Drone'lar tarafından ulaşılması
 - `sim_boundary.gpkg` dosyasındaki "Drone" ve "Hedef" koordinatlarını gösteren noktalar değiştirilebilir,
 - Sonuçlar "sonuclar" klasörüne `random_data_beytepe.xlsx` ismi ile kaydedilir. (Kayıt yeri ve dosya isminin değiştirilmesi için `calisma_alaninda_rastgele_nokta_olusturma.py` dosyası içerisinden gerekli ayarlamalar yapılabilir.)
 
-<td><img width="300" src="./images/beytepe_kampusu.PNG">
+<td><img width="300" src="./gorseller/beytepe_kampusu.PNG">
 
 
 ### 3-) Drone Güzergahı Analizi
@@ -54,8 +54,8 @@ Bu uygulanma kullanılarak belirli hedeflere Drone'lar tarafından ulaşılması
     <td><strong>Drone'ların Hedeflere Ulaşma Süreleri (2)</strong></td>
    </tr>
   <tr>
-    <td><img width="450" src="./images/drone_routes.png"></td>
-    <td><img width="450" src="./images/drone_timing.png"></td>    
+    <td><img width="450" src="./gorseller/drone_routes.png"></td>
+    <td><img width="450" src="./gorseller/drone_timing.png"></td>    
   </tr>
 </table>
 
