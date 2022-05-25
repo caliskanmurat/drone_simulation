@@ -64,4 +64,5 @@ Bu uygulanma kullanılarak belirli hedeflere Drone'lar tarafından ulaşılması
 - `simulasyon.py` dosyası kullanılarak gerçekleştirilir,
 - Güzergah planı oluşturulduktan sonra bu uçuşun hareketli bir şekilde görselleştirilmesi için kullanılır,
 - Simülasyon hızı `simulasyon.py` dosyası içerisinden `SPEED_RATIO` değişkeni ile ayarlanabilir. Ayrıca; Drone hedefe ulaşıldıktan sonra istenilen bir koordinata (Drone Güzergahı Analizi'nde `RETURN_COORS` değişkenine atanan değerde belirtilen koordinata) gitmesi isteniyorsa `simulasyon.py` dosyası içerisinde `RETURN_TO_CENTER` seçeneği ile `True` yapılmalıdır.
+- Simülasyon ekranının çözünürlüğü `SCREEN_WIDTH` ve `SCREEN_HEIGHT` değişkenleri ile ayarlanabilir.
   
