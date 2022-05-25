@@ -11,7 +11,6 @@ import geopandas as gpd
 import os
 
 
-out_path_folder = "./sonuclar"
 path = "./veriler/sim_boundary.gpkg"
 
 drones = gpd.read_file(path, layer="drone_start")
