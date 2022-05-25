@@ -42,7 +42,7 @@ def create_target(number):
     points.insert(1, "Speed", np.random.randint(TARGET_SPEED_MIN, TARGET_SPEED_MAX+1, points.shape[0]))
     points.insert(2, "X", points.geometry.x)
     points.insert(3, "Y", points.geometry.y)
-    points.insert(4, "Angle", np.random.randint(TARGET_ANGLE_MIN%360, (TARGET_ANGLE_MAX)%360+1, points.shape[0]))
+    points.insert(4, "Angle", np.random.randint(TARGET_ANGLE_MIN, TARGET_ANGLE_MAX+1, points.shape[0])%360)
 
     return points.drop(columns=["geometry"])
 
