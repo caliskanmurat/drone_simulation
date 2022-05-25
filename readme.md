@@ -2,38 +2,36 @@
 
 <table>
   <tr>
-    <td>Hareketli Hedef</td>
-    <td>Sabit Hedef</td>
-    <td>Hareketli Hedef + Final Durak</td>
+    <td><strong>Hareketli Hedef</strong></td>
+    <td><strong>Sabit Hedef</strong></td>
+    <td><strong>Hareketli Hedef + Final Durak</strong></td>
    </tr>
   <tr>
-    <td><img width="300" src="hareketli_hedef.gif"></td>
-    <td><img width="300" src="sabit_hedef.gif"></td>    
-    <td><img width="300" src="hareketli_final_durak.gif"></td>
+    <td><img width="300" src="./gif/hareketli_hedef.gif"></td>
+    <td><img width="300" src="./gif/sabit_hedef.gif"></td>    
+    <td><img width="300" src="./gif/hareketli_final_durak.gif"></td>
   </tr>
 </table>
 
 
 <hr>
-Uygulama kapsamında 5 adet 
 
-Bu 
-
+Bu uygulanma kullanılarak belirli hedeflere Drone'lar tarafından ulaşılması simüle edilmektedir. Çalışmada gerekli olan veriler "veriler" klasörü altında bulunmaktadır. Uygulama 3 aşamadan oluşmaktadır. Bunlar; "Güzergah Analizi", "Sonuçların Görselleştirilmesi" ve "Simülasyonun Çalıştırılması". Ayrıca; girdi verilerinin hazırlanmasına yardımcı olabilecek "Rastgele Nokta Oluşturma" imkanı da vardır. Bahsi geçen çalışmalar aşağıda anlatılmıştır.
 
 
-### 1-) Clip method.
+### 1-) Rastgele Nokta Oluşturma
 
 
-### 2-) Clip method.
+### 2-) Çalışma Alanında Rastgele Nokta Oluşturma
 
 
-### 3-) Clip method.
+### 3-) Drone Güzergahı Analizi
 
 
-### 4-) Clip method.
+### 4-) Güzergaha Ait Çizimler
 
 
-### 5-) Clip method.
+### 5-) Simulasyon
 
 
 
