@@ -50,8 +50,8 @@ def create_target(number_of_points):
     y = np.round(np.random.uniform(miny, maxy + 0.01, number_of_points), 3)
     
     names = [f"Target {i}" for i in range(1, number_of_points+1)]
-    speeds = np.random.randint(TARGET_SPEED_MIN, TARGET_SPEED_MAX+1, number_of_points)    
-    angles = np.random.randint(TARGET_ANGLE_MIN, (TARGET_ANGLE_MAX)%360+1, number_of_points)
+    speeds = np.random.randint(TARGET_SPEED_MIN, TARGET_SPEED_MAX+1, number_of_points)
+    angles = np.random.randint(TARGET_ANGLE_MIN, TARGET_ANGLE_MAX+1, points.shape[0])%360)
 
     df_targets = pd.DataFrame({
         "Name" : names,
