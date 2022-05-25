@@ -1,2 +1,1 @@
-
-![](simulation.gif)
+![](hareketli_hedef.gif)
