@@ -16,6 +16,7 @@ from collections import defaultdict
 
 RETURN_TO_CENTER = True
 SCREEN_WIDTH, SCREEN_HEIGHT = 544, 751
+SPEED_RATIO = 0.25
 
 #%%
 
@@ -337,5 +338,5 @@ df_results_norm.loc[:, "t_speed_final_y"] *= y_frac
 
 
 if __name__ == "__main__":
-    simulation = Simulation(SCREEN_WIDTH, SCREEN_HEIGHT, simulation_data=df_results_norm, speed_ratio=0.040)
+    simulation = Simulation(SCREEN_WIDTH, SCREEN_HEIGHT, simulation_data=df_results_norm, speed_ratio=SPEED_RATIO)
     simulation.start()
