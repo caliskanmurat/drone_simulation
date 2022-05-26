@@ -14,9 +14,9 @@ from collections import defaultdict
 
 #%%
 
-RETURN_TO_CENTER = True
+RETURN_TO_CENTER = False
 SCREEN_WIDTH, SCREEN_HEIGHT = 544, 751
-SPEED_RATIO = 0.25
+SPEED_RATIO = 0.035
 
 #%%
 
